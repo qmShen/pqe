@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                       %
+% ustthesis_test.tex: A template file for usage with ustthesis.cls      %
+%                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{ustpqe}
+
+\usepackage{latexsym}
+    % Use the "latexsym" package when encountering the following error:
+    %   ! LaTeX Error: Command \??? not provided in base LaTeX2e.
+\usepackage{epsf}
+    % Use the "epsf" package for including EPS files.
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{graphicx}
+
+\usepackage{subfigure}
+%\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{theapa}
+%\usepackage{natbib}
+\usepackage{epsfig}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{url}
+\usepackage[usenames, dvipsnames]{color}
+
+
+\numberwithin{algorithm}{chapter}
+%\renewcommand{\theHalgorithm}{\arabic{chapter}.\arabic{algorithm}}
+
+\def \cite{\shortcite}
+\def \citep{\shortcite}
+
+
+%\def \cite{\cite}
+%\def \citep{\cite}
+
+
+%\input{TexFile/defs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                       %
+% Preambles. DO NOT ERASE THEM. Change to suite your particular purpose.%
+%                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Relational Factor Modeling\\ \vspace{0.5cm}\hspace{0cm}\small{a new framework for statistical relational learning}}
+
+
+\title{A Survey on Visual Analytics in Urban Mobility}
+\author{Qiaomu Shen} % Author of the thesis.
+\degree{\PhD} % Degree for which the thesis is.
+\subject{Computer Science and Engineering}    % Subject of the Degree.
+\department{Computer Science and Engineering} % Department to which the thesis is submitted.
+\advisor{Prof.~Huamin~Qu} % Supervisor.
+\defencedate{2017}{10}{20}  % \defencedate{year}{month}{day}.
+\PNumberAboveBottomMargin
+
+
+\newcommand{\enrich}[1]{{\color{blue}{Better enriched: #1}}}
+\newcommand{\modify}[1]{{\color{blue}{Need modify: #1}}}
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{abstract.tex}
+\input{introduction.tex}
+\input{taxonomy.tex}
+\input{spatialpoints.tex}
+%\input{mining.tex}
+%\input{model.tex}
+%\input{direction.tex}
+%\input{visualization.tex}
+%\input{conclusion.tex}
+
+\bibliographystyle{theapa}
+\bibliography{reference}
+\end{document}

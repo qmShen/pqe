@@ -1,0 +1,50 @@
+\chapter{The diffusion models}
+\label{chap:model}
+
+The diffusion model is used for predicting the nodes that will be infected in the next time when given the structure and the infected nodes. First, we would like to introduce some basic states of the nodes. The classical disease-propagation model is based on a cycle of the individual’s status about the disease which we call SIR model. A person first is in susceptible (S) state which means he/she has the
+chance to get infected when exposed to the disease by an infectious
+contact. Then, the person will become infected (I). The disease runs
+its course in that host, who is subsequently recovered (R).  A
+recovered individual is immune to the disease for some period of time,
+or for the rest of the whole life.  If the recovered individual
+finally can become susceptible (S), we will call the model as SIRS model. 
+Borrowed from the concept of the diease-propagation model, for the diffusion of the innovation, we can also treat the status of the individual as S, I, or R. Based on this concept, there are two diffusion models proposed: the threshold model and the cascade model. In this chapter, we will introduce these two widely used models that candecribe the process of the informaion diffusion.
+
+\begin{itemize}
+
+\item \textit{Threshold model}
+
+In considering operational models for the spread of an idea or
+innovation through a social network, represented by a directed
+graph, we will say each individual node being either active (an
+adopter of the innovation) or inactive. We will focus on the setting that
+each node's tendency to become active increases monotonically as more
+of its neighbors become active. Granovetter was
+the first to propose models that capture such a process~\cite{granovetter1978threshold}. The
+approach is based on the use of node-specific thresholds. 
+
+Now we'd like to give a formal definition of the threshold  model: Given a directed graph $G=(V,E)$, for every $v_i \in V$, it chooses a threshold $\theta_{v_i}$ uniformly at random from the
+ interval $[0,1]$ and it has two states: active or inactive. For every edge $(v_i,v_j) \in E$, it has a weight value denoting as $w(v_i,v_j)$. For every node $v_i$, we also calculate 
+$b_{v_i}$ such that $b_{v_i} = \sum\limits_{(v_j,v_i)\in E \cap v_j\,is\,active}w(v_j,v_i)$.
+ The process then proceeds as follows: given an initial set of
+ active nodes $V_0$, the diffusion process unfolds deterministically in
+ discrete steps: in step $t$, all nodes that were active in step $t-1$
+ remain active, and we activate any node v for which the total weight
+ of its active neighbors is at least $\theta_{v_i}$.
+Thus, the thresholds $\theta_{v_i}$ intuitively represent the different
+latent tendencies of nodes to adopt the innovation when their
+neighbors do. However, as we are lack of the prior knowledge of their
+value, we are in effect averaging over possible threshold values for
+all the nodes.  
+
+\item \textit{Cascade model}
+
+Just like the threshold, we also consider the model based on a
+directed graph. However, for the cascade model, whenever a node is
+active, all of its neighbors have the probability that can be active.  
+
+\end{itemize}
+
+In ~\cite{kempe2003maximizing}, it is shown that the threshold model and the cascade model can be generalized and their generalized versions are the same. Actually, those two models just describe two different aspects of the social interaction. In the cascade model, it focuses on the individual interaction and the influence, while in the threshold model, it focuses on the threshold behavior: one will buy a new thing as long as there are enough friends buy it.  
+
+Besides those two models, both of which are based on the direceted graph, there exist some models that are not based on the graph. In~\cite{yang2010modeling}, Yang et al. argued that in most cases, we cannot directly observe the structure of the network, which means the network over which the diffusion takes place is implicit or unknown. Thus, they proposed a Linear Influence Model (LIM) by constructing an influence function which has no relation with the individual node and only evaluates the total influence of the diffusion process at a given time.   

@@ -1,0 +1,110 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\BCAY{Andrienko, Andrienko, Bak, Keim, \BBA\ Wrobel}{Andrienko
+  et~al.}{2013a}]{andrienko2013visual}
+Andrienko, G., Andrienko, N., Bak, P., Keim, D., \BBA\ Wrobel, S.
+  \BBOP2013a\BBCP.
+\newblock {\Bem Visual analytics of movement}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\BCAY{Andrienko, Andrienko, Bosch, Ertl, Fuchs, Jankowski,
+  \BBA\ Thom}{Andrienko et~al.}{2013b}]{andrienko2013thematic}
+Andrienko, G., Andrienko, N., Bosch, H., Ertl, T., Fuchs, G., Jankowski, P.,
+  \BBA\ Thom, D. \BBOP2013b\BBCP.
+\newblock \BBOQ Thematic patterns in georeferenced tweets through space-time
+  visual analytics\BBCQ\
+\newblock {\Bem Computing in Science \& Engineering}, {\Bem 15\/}(3), 72--82.
+
+\bibitem[\protect\BCAY{Andrienko, Andrienko, Chen, Maciejewski, \BBA\
+  Zhao}{Andrienko et~al.}{2017}]{andrienko2017visual}
+Andrienko, G., Andrienko, N., Chen, W., Maciejewski, R., \BBA\ Zhao, Y.
+  \BBOP2017\BBCP.
+\newblock \BBOQ Visual analytics of mobility and transportation: State of the
+  art and further research directions\BBCQ\
+\newblock {\Bem IEEE Transactions on Intelligent Transportation Systems}.
+
+\bibitem[\protect\BCAY{Chae, Thom, Jang, Kim, Ertl, \BBA\ Ebert}{Chae
+  et~al.}{2014}]{chae2014public}
+Chae, J., Thom, D., Jang, Y., Kim, S., Ertl, T., \BBA\ Ebert, D.~S.
+  \BBOP2014\BBCP.
+\newblock \BBOQ Public behavior response analysis in disaster events utilizing
+  visual analytics of microblog data\BBCQ\
+\newblock {\Bem Computers \& Graphics}, {\Bem 38}, 51--60.
+
+\bibitem[\protect\BCAY{Dodge, Weibel, \BBA\ Lautensch{\"u}tz}{Dodge
+  et~al.}{2008}]{dodge2008towards}
+Dodge, S., Weibel, R., \BBA\ Lautensch{\"u}tz, A.-K. \BBOP2008\BBCP.
+\newblock \BBOQ Towards a taxonomy of movement patterns\BBCQ\
+\newblock {\Bem Information visualization}, {\Bem 7\/}(3-4), 240--252.
+
+\bibitem[\protect\BCAY{Guo, Wang, Yu, Zhao, \BBA\ Yuan}{Guo
+  et~al.}{2011}]{guo2011tripvista}
+Guo, H., Wang, Z., Yu, B., Zhao, H., \BBA\ Yuan, X. \BBOP2011\BBCP.
+\newblock \BBOQ Tripvista: Triple perspective visual trajectory analytics and
+  its application on microscopic traffic data at a road intersection\BBCQ\
+\newblock In {\Bem Pacific Visualization Symposium (PacificVis), 2011 IEEE},
+  \BPGS\ 163--170. IEEE.
+
+\bibitem[\protect\BCAY{Itoh, Yokoyama, Toyoda, Tomita, Kawamura, \BBA\
+  Kitsuregawa}{Itoh et~al.}{2016}]{itoh2016visual}
+Itoh, M., Yokoyama, D., Toyoda, M., Tomita, Y., Kawamura, S., \BBA\
+  Kitsuregawa, M. \BBOP2016\BBCP.
+\newblock \BBOQ Visual exploration of changes in passenger flows and tweets on
+  mega-city metro network\BBCQ\
+\newblock {\Bem IEEE Transactions on Big Data}, {\Bem 2\/}(1), 85--99.
+
+\bibitem[\protect\BCAY{Lampe \BBA\ Hauser}{Lampe \BBA\
+  Hauser}{2011}]{lampe2011interactive}
+Lampe, O.~D.\BBACOMMA\  \BBA\ Hauser, H. \BBOP2011\BBCP.
+\newblock \BBOQ Interactive visualization of streaming data with kernel density
+  estimation\BBCQ\
+\newblock In {\Bem Pacific Visualization Symposium (PacificVis), 2011 IEEE},
+  \BPGS\ 171--178. IEEE.
+
+\bibitem[\protect\BCAY{Liu, Weng, Li, Bao, Zheng, Qu, \BBA\ Wu}{Liu
+  et~al.}{2017}]{liu2017smartadp}
+Liu, D., Weng, D., Li, Y., Bao, J., Zheng, Y., Qu, H., \BBA\ Wu, Y.
+  \BBOP2017\BBCP.
+\newblock \BBOQ Smartadp: visual analytics of large-scale taxi trajectories for
+  selecting billboard locations\BBCQ\
+\newblock {\Bem IEEE transactions on visualization and computer graphics},
+  {\Bem 23\/}(1), 1--10.
+
+\bibitem[\protect\BCAY{Willems, Van De~Wetering, \BBA\ Van~Wijk}{Willems
+  et~al.}{2009}]{willems2009visualization}
+Willems, N., Van De~Wetering, H., \BBA\ Van~Wijk, J.~J. \BBOP2009\BBCP.
+\newblock \BBOQ Visualization of vessel movements\BBCQ\
+\newblock In {\Bem Computer Graphics Forum}, \lowercase{\BVOL}~28, \BPGS\
+  959--966. Wiley Online Library.
+
+\bibitem[\protect\BCAY{Wood, Dykes, \BBA\ Slingsby}{Wood
+  et~al.}{2010}]{wood2010visualisation}
+Wood, J., Dykes, J., \BBA\ Slingsby, A. \BBOP2010\BBCP.
+\newblock \BBOQ Visualisation of origins, destinations and flows with od
+  maps\BBCQ\
+\newblock {\Bem The Cartographic Journal}, {\Bem 47\/}(2), 117--129.
+
+\bibitem[\protect\BCAY{Wood, Slingsby, \BBA\ Dykes}{Wood
+  et~al.}{2011}]{wood2011visualizing}
+Wood, J., Slingsby, A., \BBA\ Dykes, J. \BBOP2011\BBCP.
+\newblock \BBOQ Visualizing the dynamics of london's bicycle-hire scheme\BBCQ\
+\newblock {\Bem Cartographica: The International Journal for Geographic
+  Information and Geovisualization}, {\Bem 46\/}(4), 239--251.
+
+\bibitem[\protect\BCAY{Wu, Xu, Zeng, Zheng, Qu, Ni, Yuan, \BBA\ Ni}{Wu
+  et~al.}{2016}]{wu2016telcovis}
+Wu, W., Xu, J., Zeng, H., Zheng, Y., Qu, H., Ni, B., Yuan, M., \BBA\ Ni, L.~M.
+  \BBOP2016\BBCP.
+\newblock \BBOQ Telcovis: Visual exploration of co-occurrence in urban human
+  mobility based on telco data\BBCQ\
+\newblock {\Bem IEEE transactions on visualization and computer graphics},
+  {\Bem 22\/}(1), 935--944.
+
+\bibitem[\protect\BCAY{Zhao, Forer, \BBA\ Harvey}{Zhao
+  et~al.}{2008}]{zhao2008activities}
+Zhao, J., Forer, P., \BBA\ Harvey, A.~S. \BBOP2008\BBCP.
+\newblock \BBOQ Activities, ringmaps and geovisualization of large human
+  movement fields\BBCQ\
+\newblock {\Bem Information visualization}, {\Bem 7\/}(3-4), 198--209.
+
+\end{thebibliography}

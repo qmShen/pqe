@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: survey_for_pqe.aux
+The style file: theapa.bst
+Database file #1: reference.bib
+Repeated entry---line 129 of file reference.bib
+ : @article{itoh2016visual
+ :                        ,
+I'm skipping whatever remains of this entry
+You can't pop an empty literal stack for entry andrienko2017visual
+while executing---line 1434 of file theapa.bst
+Warning--can't use both \losercase{\BVOL\ and \BNUM} fields in willems2009visualization
+(There were 2 error messages)
